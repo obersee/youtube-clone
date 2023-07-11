@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>YouTube</title>
+    <script
+      src="https://kit.fontawesome.com/f3a4dc0b67.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <span class="title">너튜브</span>
+      </div>
+
+      <div class="icons">
+        <a href=""><i class="fas fa-search"></i></a>
+        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video
+        controls
+        src="images/lincecum_video.mp4"
+        poster="images/lincecum.jpg"
+      ></video>
+    </section>
+
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#MLB</li>
+            <li>#TimLincecum</li>
+            <li>#Highlights</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >Looking back on Tim Lincecum's career</span
+            >
+            <button class="seeMore">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">527,327 views • Feb 9, 2018</span>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>6.5K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>98</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fas fa-download"></i><span>Download</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+        </ul>
+        <!-- Channel Description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="images/mlb_logo.jpg" alt="mlb_logo" />
+            <div class="info">
+              <span class="name">MLB</span>
+              <span class="subscribers">2.55M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <section class="upNext">
+        <span class="title">Up Next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="images/ichiro.jpg" alt="" /></div>
+            <div class="video_info">
+              <span class="title">The career of Ichiro Suzuki</span>
+              <span class="name">MLB</span>
+              <span class="views">884K views • 2 years ago</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="images/johnson.jpg" alt="" /></div>
+            <div class="video_info">
+              <span class="title"
+                >Bottom of the 9th of Randy Johnson's perfect game</span
+              >
+              <span class="name">MLB</span>
+              <span class="views">655K views • 2 years ago</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="images/sf_giants.jpg" alt="" /></div>
+            <div class="video_info">
+              <span class="title">SF Giants: Best Moments of the 2010s</span>
+              <span class="name">San Francisco Giants</span>
+              <span class="views">80K views • 8 months ago</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
